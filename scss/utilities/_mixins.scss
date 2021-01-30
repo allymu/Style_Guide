@@ -1,5 +1,4 @@
-@mixin btn-bg {
-    background-color: $bgcolor;
+@mixin btn-bg($bgcolor) {
     transition: all 0.3s ease-in;
     background: lighten($bgcolor, 15%);
 }
